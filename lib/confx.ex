@@ -1,7 +1,8 @@
 defmodule Confx do
-  @moduledoc """
-  Documentation for `Confx`.
-  """
+  @moduledoc "README.md"
+             |> File.read!()
+             |> String.split("<!-- MDOC !-->")
+             |> Enum.fetch!(1)
 
   @doc """
   Returns the configuration specified in the given file

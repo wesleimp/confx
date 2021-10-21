@@ -1,5 +1,7 @@
 # Confx
 
+<!-- MDOC !-->
+
 Find and load configuration from files.
 
 Available file types:
