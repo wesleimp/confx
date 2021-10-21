@@ -1,6 +1,5 @@
 defmodule ConfxTest do
   use ExUnit.Case
-  doctest Confx
 
   describe "load/" do
     test "loads he file" do
